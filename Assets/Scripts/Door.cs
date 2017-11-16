@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour
 {
+    private Coins coin;
     [SerializeField]
     string SceneToLoad;
     private void OnTriggerStay2D(Collider2D other)
@@ -13,6 +14,7 @@ public class Door : MonoBehaviour
         {
             if(Input.GetButtonDown("Action"))
             {
+                Coins.coinCount = 0;
                 SceneManager.LoadScene(SceneToLoad);
             }
         }
