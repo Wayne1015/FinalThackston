@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 11/12/2017 5:05:42 PM-->
+<!--Last exported: 11/16/2017 2:53:38 AM-->
 <Tiled2Unity version="1.0.13.0">
   <AssignMaterial mesh="UnderGroundLvl3_mesh_0001" material="tiles" />
   <AssignMaterial mesh="UnderGroundLvl3_mesh_0002" material="tileset" />
@@ -20,7 +20,7 @@
         </PolygonCollider2D>
       </GameObject>
     </GameObject>
-    <GameObject name="ForeGround" x="0" y="0" z="0">
+    <GameObject name="ForeGround" x="0" y="0" z="0" layer="Ground" tag="Ground">
       <TileLayer offsetX="0" offsetY="0" />
       <GameObject name="tileset" x="0" y="0" mesh="UnderGroundLvl3_mesh_0002" sortingLayerName="" sortingOrder="1" opacity="1" />
       <GameObject name="ForestSheet" x="0" y="0" mesh="UnderGroundLvl3_mesh_0003" sortingLayerName="" sortingOrder="1" opacity="1" />
@@ -82,7 +82,7 @@
         </PolygonCollider2D>
       </GameObject>
     </GameObject>
-    <GameObject name="Torches" x="0" y="0" z="0">
+    <GameObject name="Torches" x="0" y="0" z="0" layer="Ground" tag="Ground">
       <TileLayer offsetX="0" offsetY="0" />
       <GameObject name="cave_tileset" x="0" y="0" mesh="UnderGroundLvl3_mesh_0005" sortingLayerName="" sortingOrder="2" opacity="1" />
       <GameObject name="tiles" x="0" y="0" mesh="UnderGroundLvl3_mesh_0006" sortingLayerName="" sortingOrder="2" opacity="1" />
@@ -97,7 +97,7 @@
         </PolygonCollider2D>
       </GameObject>
     </GameObject>
-    <GameObject name="Walls" x="0" y="0" z="0">
+    <GameObject name="Walls" x="0" y="0" z="0" layer="Wall">
       <TileLayer offsetX="0" offsetY="0" />
       <GameObject name="tileset" x="0" y="0" mesh="UnderGroundLvl3_mesh_0007" sortingLayerName="" sortingOrder="3" opacity="1" />
       <GameObject name="Collision">

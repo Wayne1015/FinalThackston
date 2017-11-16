@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 11/12/2017 2:52:19 PM-->
+<!--Last exported: 11/16/2017 2:56:06 AM-->
 <Tiled2Unity version="1.0.13.0">
   <AssignMaterial mesh="UnderGroundLvl2_mesh_0001" material="set-cave_bright" />
   <AssignMaterial mesh="UnderGroundLvl2_mesh_0002" material="tiles" />
@@ -13,7 +13,7 @@
       <TileLayer offsetX="0" offsetY="0" />
       <GameObject name="set-cave_bright" x="0" y="0" mesh="UnderGroundLvl2_mesh_0001" sortingLayerName="" sortingOrder="0" opacity="1" />
     </GameObject>
-    <GameObject name="ForeGround" x="0" y="0" z="0">
+    <GameObject name="ForeGround" x="0" y="0" z="0" layer="Ground" tag="Ground">
       <TileLayer offsetX="0" offsetY="0" />
       <GameObject name="tiles" x="0" y="0" mesh="UnderGroundLvl2_mesh_0002" sortingLayerName="" sortingOrder="1" opacity="1" />
       <GameObject name="tileset" x="0" y="0" mesh="UnderGroundLvl2_mesh_0003" sortingLayerName="" sortingOrder="1" opacity="1" />
@@ -45,7 +45,7 @@
         </PolygonCollider2D>
       </GameObject>
     </GameObject>
-    <GameObject name="Wall" x="0" y="0" z="0">
+    <GameObject name="Wall" x="0" y="0" z="0" layer="Wall">
       <TileLayer offsetX="0" offsetY="0" />
       <GameObject name="tileset" x="0" y="0" mesh="UnderGroundLvl2_mesh_0005" sortingLayerName="" sortingOrder="2" opacity="1" />
       <GameObject name="Collision">
